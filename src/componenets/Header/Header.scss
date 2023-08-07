@@ -1,0 +1,100 @@
+.hContent {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hContent .hLeftSide {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.hContent .hLeftSide .hMenuSelect {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #15121a;
+    margin-right: 20px;
+}
+
+.hContent .hMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.hContent .hMenu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hContent .hRightSide {
+    margin-right: 40px;
+}
+
+.hContent .hRightSide .hApply {
+    height: 40px;
+    width: 150px;
+    border-radius: 14px;
+    font-weight: 600;
+    background: #1a1921;
+    margin-right: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 6px 2px #ffa4dc;
+    cursor: pointer;
+}
+
+.hContent .hRightSide .hApply:hover {
+    background: #1a1921;
+    box-shadow: 0px 0px 8px 4px #b7769e;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.hContent .hRightSide .hApply:not(:hover) {
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 740px) {
+    .hContent {
+        flex-direction: column;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .hLogo {
+        width: 80px;
+    }
+    .hContent .hRightSide {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hContent .hLeftSide {
+        margin: 0;
+    }
+    .hMenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hContent .hMenu a {
+        margin: 8px 0;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .hContent .hRightSide .hApply {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+}

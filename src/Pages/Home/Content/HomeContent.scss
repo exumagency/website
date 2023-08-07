@@ -1,0 +1,147 @@
+.firstContent {
+    display: flex;
+}
+
+.firstContent .slogan {
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.firstContent .slogan .sloganContent {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+}
+
+.firstContent .slogan .sloganContent p {
+    font-size: 18px;
+}
+
+.firstContent .slogan .sloganContent .apply {
+    background: #ffa4dc;
+    border-radius: 14px;
+    height: 44px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.firstContent .slogan .sloganContent .apply:hover {
+    background: #ffa4dc;
+    box-shadow: 0px 0px 8px 4px #b7769e;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.firstContent .slogan .sloganContent .apply:not(:hover) {
+    transition: all 0.5s ease-in-out;
+}
+
+.firstImageContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstImageContainer .img {
+    height: 90%;
+    border-radius: 14px;
+}
+
+.servicesContainer {
+    background: #1a1921;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.servicesContainer .mainTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.homeContent .servicesContainer .servicesContent {
+    margin-top: 120px;
+}
+
+.homeContent .servicesContainer .servicesContent .point {
+    max-width: 32%;
+    margin-left: 12%;
+    margin-bottom: 180px;
+}
+
+.homeContent .servicesContainer .servicesContent .point h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.homeContent .servicesContainer .servicesContent .point h3 {
+    margin-left: 54px;
+    margin-top: -40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.homeContent .servicesContainer .servicesContent .rightPoint {
+    margin-left: 58%;
+}
+
+.secondImage {
+    background-image: url("../../../images/girl-1953201_1280.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.firstContent .apply12 {
+    background: #ffa4dc;
+    border-radius: 14px;
+    height: 44px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.firstContent .apply12:hover {
+    background: #ffa4dc;
+    box-shadow: 0px 0px 8px 4px #b7769e;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.firstContent .apply12:not(:hover) {
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 740px) {
+    .homeContent .servicesContainer .servicesContent .point {
+        max-width: 90%;
+        margin-left: 12%;
+        margin-bottom: 110px;
+    }
+
+    .homeContent .servicesContainer .servicesContent .point h2 {
+        font-size: 26px;
+    }
+
+    .homeContent .servicesContainer .servicesContent .point h3 {
+        font-size: 16px;
+    }
+}

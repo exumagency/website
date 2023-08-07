@@ -1,0 +1,101 @@
+.required {
+    color: rgb(255, 89, 0);
+}
+
+.ContactFormContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.ContactFormContainer .form {
+    width: 70%;
+    height: 100%;
+    border-radius: 14px;
+    border: 1px solid #171717;
+    box-shadow: 0px 0px 20px 2px #ffa4dc;
+}
+
+.ContactFormContainer .form {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    height: 400px;
+    width: 40%;
+}
+
+.column-right {
+    margin-left: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.submit {
+    margin: 40px 0;
+    width: 140px;
+    height: 36px;
+    border-radius: 14px;
+    background: #1a1921;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px #ffa4dc;
+}
+
+.inputs input,
+textarea {
+    min-height: 40px;
+    padding: 0px 4px;
+    width: 100%;
+    background-color: rgba(188, 188, 188, 0.4);
+    border-radius: 14px;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+    color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    margin-top: 30px;
+}
+
+.messageInput {
+    height: 80px;
+}
+
+@media only screen and (max-width: 740px) {
+    .center {
+        flex-direction: column;
+    }
+    .column {
+        width: 80%;
+        height: auto;
+    }
+    .column-right {
+        margin: 0;
+    }
+    .ContactFormContainer .form {
+        width: 86%;
+    }
+}

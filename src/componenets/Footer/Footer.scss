@@ -1,0 +1,157 @@
+.fSpan {
+    color: #ffa4dc;
+}
+
+.fOpacity {
+    opacity: 0.6;
+}
+
+.box {
+    max-width: 330px;
+}
+
+.fMaxWidth {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 36px;
+    max-width: 1350px;
+}
+
+.fContent {
+    height: 680px;
+    width: 100%;
+}
+
+.fContent .fContact {
+    height: 300px;
+    width: 100%;
+    background: #1a1921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fContent .fContact .fMaxWidth {
+    width: 90%;
+}
+
+.fContent .fContact h3 {
+    max-width: 700px;
+}
+
+.fContent .fContact .hContactUs {
+    width: 244px;
+    height: 70px;
+    font-size: 20px;
+    background: #ffa4dc;
+    border-radius: 14px;
+    border: 1px solid #202024;
+    box-shadow: 0px 0px 14px 1px #ffa4dc;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+}
+
+.fContent .fInformations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fContent .fInformations .fMaxWidth {
+    margin-top: 100px;
+    align-items: flex-start;
+    font-size: 16px;
+    width: 90%;
+}
+
+.fContent .fInformations .fMaxWidth a {
+    color: white;
+    text-decoration: none;
+}
+
+.fContent .fInformations .fMaxWidth .container3 {
+    font-size: 16px;
+}
+
+.fContent .fInformations .fMaxWidth .container3 .fIgContact {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.fContent .fInformations .fMaxWidth .container3 img {
+    margin-right: 10px;
+}
+
+.fContent .fInformations .fMaxWidth .container4 .fApply {
+    height: 50px;
+    width: 170px;
+    background: transparent;
+    border: 2px solid #ffa4dc;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 24px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.fContent .fCopyWrites {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fContent .fCopyWrites .fContainer {
+    width: 72%;
+    border-top: 1px solid #5b5b5b;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+@media only screen and (max-width: 740px) {
+    .fContact .fMaxWidth {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 70%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .fInformations .fMaxWidth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .box {
+        width: 80%;
+        padding: 0 10%;
+        max-width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .fContent .fContact .fMaxWidth .hContactUs {
+        width: 200px;
+        height: 64px;
+    }
+    .fContent .fContact .fMaxWidth h3 {
+        margin-top: -10px;
+    }
+    .fContent .fInformations .fMaxWidth .container3 .fIgContact {
+        justify-content: center;
+    }
+}
