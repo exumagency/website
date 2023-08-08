@@ -7,7 +7,9 @@ export const Header = () => {
         <>
             <div className="hContent">
                 <div className="hLeftSide">
-                    <img className="hLogo" src={logo} alt="logo" width={120} />
+                    <a href="#/">
+                        <img className="hLogo" src={logo} alt="logo" width={120} />
+                    </a>
                     <a className="fIgContact" href="https://www.instagram.com/exumagency/">
                         <div className="hIgLogoContainer">
                             <img src={igLogo} className="hIgLogo" alt="instagram logo" width={30} height={30} />
