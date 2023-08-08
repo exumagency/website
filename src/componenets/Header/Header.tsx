@@ -21,7 +21,7 @@ export const Header = () => {
                     <a href="#/contact">Contact</a>
                 </div>
                 <div className="hRightSide">
-                    <a href="/contact">
+                    <a href="#/contact">
                         <button className="hApply">Apply Now</button>
                     </a>
                 </div>

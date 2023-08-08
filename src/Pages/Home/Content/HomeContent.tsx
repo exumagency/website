@@ -42,7 +42,7 @@ export const HomeContent = () => {
                     <div className="sloganContent">
                         <h1>Empower Your OnlyFans Account - We Care About Your Business!</h1>
                         <p className="fOpacity ">Work less, earn more</p>
-                        <a href="/contact">
+                        <a href="#/contact">
                             <button className="apply">Apply</button>
                         </a>
                     </div>
@@ -93,7 +93,7 @@ export const HomeContent = () => {
                     <p className="fOpacity">Work less, earn more</p>
                 </div>
                 <div className="center">
-                    <a href="/contact">
+                    <a href="#/contact">
                         <button className="apply12">Apply</button>
                     </a>
                 </div>
@@ -107,7 +107,6 @@ export const HomeContent = () => {
                 {faq.map((item, index) => (
                     <FAQ key={index} question={item.question} answer={item.answer} />
                 ))}
-                {/* <FAQ question="pytanie kurwa" answer="odpowiedz kurwa"></FAQ> */}
             </div>
         </div>
     );

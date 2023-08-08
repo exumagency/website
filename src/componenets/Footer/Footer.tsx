@@ -8,7 +8,7 @@ export const Footer = () => {
             <div className="fContact">
                 <div className="fMaxWidth">
                     <h3>Let us help You with marketing and managing your OnlyFans!</h3>
-                    <a href="/contact">
+                    <a href="#/contact">
                         <button className="hContactUs">Contact us</button>
                     </a>
                 </div>
@@ -30,14 +30,14 @@ export const Footer = () => {
                     <div className="container3 box">
                         <p>Useful link and Resources</p>
 
-                        <a className="fOpacity" href="/">
+                        <a className="fOpacity" href="#/">
                             <p>Home</p>
                         </a>
 
-                        <a className="fOpacity" href="/about-us">
+                        <a className="fOpacity" href="#/about-us">
                             <p>About us</p>
                         </a>
-                        <a className="fOpacity" href="/contact">
+                        <a className="fOpacity" href="#/contact">
                             <p>Contact</p>
                         </a>
 
@@ -49,7 +49,7 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div className="container4 box">
-                        <a href="/contact">
+                        <a href="#/contact">
                             <button className="fApply">Apply Now</button>
                         </a>
                     </div>
