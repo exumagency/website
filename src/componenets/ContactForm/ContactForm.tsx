@@ -1,5 +1,5 @@
 import "./ContactForm.scss";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 export const ContactForm = () => {
     const [state, handleSubmit] = useForm("mnqkpnlk");
