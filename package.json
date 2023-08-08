@@ -1,7 +1,7 @@
 {
     "name": "my-app",
     "version": "0.1.0",
-    "homepage": "https://michal34.github.com/exum",
+    "homepage": "https://exumagency.com",
     "private": true,
     "dependencies": {
         "@formspree/react": "^2.5.0",

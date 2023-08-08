@@ -16,9 +16,9 @@ export const Header = () => {
                     </a>
                 </div>
                 <div className="hMenu">
-                    <a href="/">Home</a>
-                    <a href="/about-us">About Us</a>
-                    <a href="/contact">Contact</a>
+                    <a href="#/">Home</a>
+                    <a href="#/about-us">About Us</a>
+                    <a href="#/contact">Contact</a>
                 </div>
                 <div className="hRightSide">
                     <a href="/contact">

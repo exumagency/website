@@ -12,25 +12,12 @@ export const AboutUsContent = () => {
                 </div>
                 <div className="aboutUsContentContainer">
                     <p>
-                        My super agencja pieniądze bardzo duze kebab wołowina na cienkim ossy mieszane. To ogolnie ma być jakuś dlugi teks
-                        żebym przetestował jakkuś dlugi teks żebym przetestował jak to gówno ktore będzie nam kosić w
-                    </p>
-                    <p>
-                        ncja pieniądze bardzo duze kebab wołowina na cienkim ossy mieszane. To ogolnie ma być jakuś dlugi teks żebym
-                        przetestował jak to gówno ktore będzie nam kosić w chuj siana będzie wyglądać. My super agencja pieniądze bardzo
-                        duze kebab wołowina na cienkim ossy mieszane. To ogolnie ma być jakuś dlugi teks żebym przetestował jak to gówno
-                        ktore będzie nam kosić w chuj siana będzie wyglądać. My super
-                    </p>
-                    <p>
-                        chuj siana będzie wyglądać. My super agencja pieniądze bardzo duze kebab wołowina na cienkim ossy mieszane. To
-                        ogolnie ma być jakuś dlugi teks żebym przetestował jak to gówno ktore będzie nam kosić w chuj siana będzie wyglądać.
-                        My super age
-                    </p>
-                    <p>
-                        to gówno ktore będzie nam kosić w chuj siana będzie wyglądać. My super agencja pieniądze bardzo duze kebab wołowina
-                        na cienkim ossy mieszane. To ogolnie ma być jakuś dlugi teks żebym przetestował jak to gówno ktore będzie nam kosić
-                        w chuj siana będzie wyglądać. My super agencja pieniądze bardzo duze kebab wołowina na cienkim ossy mieszane. To
-                        ogolnie ma być ja
+                        We are one of the most innovative modeling agencies on the market. Our marketing is rapidly advancing, and we have
+                        the capability to promote almost any profile on OnlyFans.
+                        <p>
+                            With an experienced team at our disposal, we are certainly able to assist you with any challenges. We provide
+                            support to creators at all levels, from beginners to the more advanced.
+                        </p>
                     </p>
                 </div>
             </div>
@@ -42,14 +29,12 @@ export const AboutUsContent = () => {
                 </div>
                 <div className="ourTeam">
                     <div className="ourTeamContent">
-                        <p>Exum operates as an internationally divices alongside a suite of tools to a</p>
                         <p>
-                            mplify your success on the platform. We aim to elevate your existing career to unprecedented heights or spark a
-                            thriving new journey, gencome through OnlyFans.
+                            Exum operates as an internationally divices alongside a suite of tools to amplify your success on the platform.
                         </p>
                         <p>
-                            mplify your success on the platform. We aim to elevate your existing career to unprecedented heights or spark a
-                            thriving new journey, generating substantial income through OnlyFans.
+                            We aim to elevate your existing career to unprecedented heights or spark a thriving new journey, gencome through
+                            OnlyFans.
                         </p>
                     </div>
                     <div className="ourTeamImage">
