@@ -1,5 +1,6 @@
 .firstContent {
     display: flex;
+    margin-top: 24px;
 }
 
 .firstContent .slogan {
@@ -54,7 +55,7 @@
 }
 
 .firstImageContainer .img {
-    height: 90%;
+    height: 600px;
     border-radius: 14px;
 }
 
@@ -105,32 +106,108 @@
     height: 300px;
     background-position: center;
     background-size: cover;
+    margin-bottom: 40px;
 }
 
-.firstContent .apply12 {
+.startYourCarrer {
+    font-size: 34px;
+}
+
+.apply12 {
     background: #ffa4dc;
     border-radius: 14px;
-    height: 44px;
-    width: 150px;
+    height: 48px;
+    width: 158px;
     border: none;
     outline: none;
     font-weight: 600;
     cursor: pointer;
     font-size: 18px;
+    margin-bottom: 100px;
 }
 
-.firstContent .apply12:hover {
+.apply12:hover {
     background: #ffa4dc;
     box-shadow: 0px 0px 8px 4px #b7769e;
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
 }
 
-.firstContent .apply12:not(:hover) {
+.apply12:not(:hover) {
     transition: all 0.5s ease-in-out;
 }
 
+.FAContainer {
+    color: #ffa4dc;
+    text-align: center;
+}
+
+.FAContainer h1 {
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+.FAContainer p {
+    color: white;
+}
+
+.FAQContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .firstImageContainer .img {
+        height: 500px;
+    }
+    .firstContent .slogan .sloganContent {
+        font-size: 24px;
+    }
+}
+
 @media only screen and (max-width: 740px) {
+    .homeContent {
+        width: 100%;
+    }
+
+    .firstContent .slogan {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .firstContent .slogan .sloganContent {
+        font-size: 20px;
+    }
+
+    .firstContent {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .firstImageContainer {
+        width: 80%;
+    }
+
+    .firstImageContainer .img {
+        margin-top: 50px;
+        width: 330px;
+        height: auto;
+    }
+
+    .startYourCarrer {
+        text-align: center;
+        font-size: 24px;
+    }
+
     .homeContent .servicesContainer .servicesContent .point {
         max-width: 90%;
         margin-left: 12%;

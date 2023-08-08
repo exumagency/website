@@ -1,13 +1,19 @@
 import "./Header.scss";
 import logo from "../../images/logo.png";
+import igLogo from "../../images/igLogo.png";
 
 export const Header = () => {
     return (
         <>
             <div className="hContent">
                 <div className="hLeftSide">
-                    {/* <div className="menuSelect"></div> */}
                     <img className="hLogo" src={logo} alt="logo" width={120} />
+                    <a className="fIgContact" href="https://www.instagram.com/exumagency/">
+                        <div className="hIgLogoContainer">
+                            <img src={igLogo} className="hIgLogo" alt="instagram logo" width={30} height={30} />
+                            <p className="fOpacity">@exumagency</p>
+                        </div>
+                    </a>
                 </div>
                 <div className="hMenu">
                     <a href="/">Home</a>

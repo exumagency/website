@@ -1,15 +1,28 @@
 import "./FAQ.scss";
+import React, { useState } from "react";
+import capture from "../../images/dasdsa.png";
 
-interface FAQProps {
+export interface FAQProps {
     question: string;
     answer: string;
 }
 
 export const FAQ: React.FC<FAQProps> = ({ question, answer }) => {
+    const [isTextVisible, setIsTextVisible] = useState(false);
+
+    const handleSlideClick = () => {
+        setIsTextVisible(!isTextVisible);
+    };
+
     return (
-        <div>
-            <h1>{question}</h1>
-            <p>{answer}</p>
-        </div>
+        <>
+            <div onClick={handleSlideClick} className={`FAQContentContainer${isTextVisible ? " open" : ""}`}>
+                <h2>{question}</h2>
+                <div className="answer">
+                    <p>{answer}</p>
+                </div>
+                <img src={capture}  alt="arrow" />
+            </div>
+        </>
     );
 };

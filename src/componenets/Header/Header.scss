@@ -10,6 +10,22 @@
     display: flex;
     align-items: center;
     margin-left: 40px;
+    color: white;
+}
+
+.hContent .hLeftSide p {
+    color: white;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.hIgLogoContainer {
+    margin-top: 14px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hContent .hLeftSide .hMenuSelect {
@@ -75,6 +91,10 @@
     .hLogo {
         width: 80px;
     }
+    .hIgLogoContainer {
+        margin: 10px 0;
+        display: none;
+    }
     .hContent .hRightSide {
         margin: 0;
         width: 100%;
@@ -83,6 +103,8 @@
     }
     .hContent .hLeftSide {
         margin: 0;
+        flex-direction: column;
+        justify-content: center;
     }
     .hMenu {
         flex-direction: column;

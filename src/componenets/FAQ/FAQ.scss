@@ -1,0 +1,69 @@
+.FAQContentContainer {
+    width: 44%;
+    text-align: left;
+    color: white;
+    background: #1a1921;
+    box-shadow: 0px 0px 10px 1px #ffa4dcb1;
+    border-radius: 14px;
+    margin: 20px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.FAQContentContainer h2 {
+    margin-left: 4%;
+    opacity: 0.9;
+    max-width: 80%;
+}
+
+.FAQContentContainer img {
+    width: 30px;
+    border-radius: 14px;
+    height: 30px;
+    position: absolute;
+    top: 16px;
+    right: 14px;
+    transition: all 0.5s ease-in-out;
+}
+
+.answer {
+    margin: 0px 4%;
+    width: 90%;
+    line-height: 28px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1.2s ease, max-height 1s ease;
+}
+
+.FAQContentContainer.open .answer {
+    opacity: 1;
+    max-height: 500px;
+    transition: opacity 2s ease, max-height 1.8s ease;
+}
+
+.FAQContentContainer.open img {
+    transform: rotate(180deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.FAQContentContainer.closing img {
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 740px) {
+    .FAQContentContainer {
+        width: 86%;
+        font-size: 12px;
+    }
+
+    .answer {
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .FAQContentContainer img {
+        top: 10px;
+    }
+}

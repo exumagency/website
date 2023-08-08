@@ -3,18 +3,18 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 8px; /* Width of the scrollbar */
 }
 
 /* Track (the background of the scrollbar) */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #1d1d22;
 }
 
 /* Handle (the draggable part of the scrollbar) */
 ::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 6px; /* Rounded corners for the scrollbar handle */
+    border-radius: 12px; /* Rounded corners for the scrollbar handle */
 }
 
 /* On hover, style the scrollbar handle */
