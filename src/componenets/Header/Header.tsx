@@ -1,12 +1,37 @@
 import "./Header.scss";
 import logo from "../../images/logo.png";
 import igLogo from "../../images/igLogo.png";
+import { useState } from "react";
 
 export const Header = () => {
+    const [menu, setMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setMenu(!menu);
+    };
+
     return (
         <>
+            <div className="menuContainer">
+                <div className={`menu${menu ? " open" : ""}`}>
+                    <a href="#/">
+                        <h3>Home</h3>
+                    </a>
+                    <a href="#/about-us">
+                        <h3>About Us</h3>
+                    </a>
+                    <a href="#/contact">
+                        <h3>Contact</h3>
+                    </a>
+                </div>
+            </div>
             <div className="hContent">
                 <div className="hLeftSide">
+                    <div className="hSelect" onClick={toggleMenu}>
+                        <div className="line1" />
+                        <div className="line2" />
+                        <div className="line3" />
+                    </div>
                     <a href="#/">
                         <img className="hLogo" src={logo} alt="logo" width={120} />
                     </a>

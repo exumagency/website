@@ -54,6 +54,7 @@
     cursor: pointer;
     outline: none;
     font-weight: 600;
+    color: black;
 }
 
 .fContent .fInformations {
@@ -86,6 +87,10 @@
     margin-top: -8px;
 }
 
+.fContent .fInformations .fMaxWidth .container3 .fIgContact p {
+    text-decoration: none;
+}
+
 .fContent .fInformations .fMaxWidth .container3 img {
     margin-right: 10px;
 }
@@ -101,13 +106,17 @@
     color: white;
     outline: none;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 .fContent .fCopyWrites {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.fAboutUs {
+    line-height: 22px;
 }
 
 .fContent .fCopyWrites .fContainer {

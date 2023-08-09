@@ -6,7 +6,7 @@ export const NotFoundPage = () => {
     return (
         <div className="NotFound">
             <Header />
-            <h1>Page not found - 404</h1>
+            <h1>Page not found</h1>
             <Footer />
         </div>
     );

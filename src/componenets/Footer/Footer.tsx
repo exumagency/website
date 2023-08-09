@@ -22,9 +22,9 @@ export const Footer = () => {
                         <p>
                             About <span className="fSpan">Exum</span>
                         </p>
-                        <p className="fOpacity">
-                            We are great and one of the best agency on all of the worldWe are great and one of the best agency on all of the
-                            worldWe are great and one of the best agency on all of the worldWe
+                        <p className="fAboutUs fOpacity">
+                            We are one of the most innovative modeling agencies on the market. Our marketing is rapidly advancing, and we
+                            have the capability to promote almost any profile on OnlyFans.
                         </p>
                     </div>
                     <div className="container3 box">
