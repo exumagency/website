@@ -6,14 +6,27 @@ import { useState } from "react";
 export const Header = () => {
     const [menu, setMenu] = useState(false);
 
-    const toggleMenu = () => {
+    const openMenu = () => {
         setMenu(!menu);
+    };
+
+    const closeMenu = () => {
+        setMenu(false);
+    };
+
+    const contentClickHandler = () => {
+        if (menu) {
+            closeMenu();
+        }
     };
 
     return (
         <>
             <div className="menuContainer">
                 <div className={`menu${menu ? " open" : ""}`}>
+                    <div className="leaveMenuContainer" onClick={closeMenu}>
+                        <div className="leaveMenu">X</div>
+                    </div>
                     <a href="#/">
                         <h3>Home</h3>
                     </a>
@@ -25,9 +38,9 @@ export const Header = () => {
                     </a>
                 </div>
             </div>
-            <div className="hContent">
+            <div className="hContent" onClick={contentClickHandler}>
                 <div className="hLeftSide">
-                    <div className="hSelect" onClick={toggleMenu}>
+                    <div className="hSelect" onClick={openMenu}>
                         <div className="line1" />
                         <div className="line2" />
                         <div className="line3" />
